@@ -15,7 +15,7 @@ spec:
       serviceAccountName: akri-video-streaming-app-sa
       containers:
       - name: akri-video-streaming-app
-        image: docswe/edgevid:v2
+        image: docswe/edgevid:v3
         imagePullPolicy: Always
         securityContext:
           runAsUser: 1000
